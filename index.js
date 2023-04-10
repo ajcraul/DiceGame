@@ -20,5 +20,19 @@ function winner() {
         document.querySelector("#header").innerHTML = "🚩 Player 1 Wins!";
     }
 }
-
+ 
 winner();
+
+
+// function addEventListener() {
+//     const input = document.getElementsByClassName(".btn");
+// }
+
+// function runWinner() {
+//     winner();
+//     {
+//         input.addEventListener('click', runWinner);
+//     }
+// }
+
+// btn.addEventListener("click", winner());
